@@ -24,7 +24,7 @@ public class Details_Adapter extends RecyclerView.Adapter<Details_Adapter.MyView
 {
     Context context;
     ArrayList<RegistrationVo> registrationVos;
-    DBHelper dbHelper;
+    DBHelper dbHelper;//
 
     public Details_Adapter(Context context, ArrayList<RegistrationVo> registrationVos) {
         this.context =context;
