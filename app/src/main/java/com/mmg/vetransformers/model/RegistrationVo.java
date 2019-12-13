@@ -5,6 +5,15 @@ public class RegistrationVo {
     String mobilenumber;
     String amount;
 
+    public String getOthers() {
+        return others;
+    }
+
+    public void setOthers(String others) {
+        this.others = others;
+    }
+
+    String others;
     public String getEmail() {
         return email;
     }
